@@ -36,11 +36,12 @@
 	border-radius: 4px;
 	cursor: pointer;
 	outline: none;
-}
-.response__input:hover,
-.response__input:focus {
+
+	&:hover,
+	&:focus {
 	border-color: var(--accent-color);
 	transition:	border-color 250ms var(--timing-function);
+}
 }
 .response__icon {
 	position: absolute;
@@ -50,10 +51,11 @@
 	fill: currentColor;
 	pointer-events: none;
 	transition:	fill 250ms var(--timing-function);
-}
-.response__input:hover + .response__icon,
-.response__input:focus + .response__icon {
+
+	.response__input:hover + &,
+	.response__input:focus + & {
 	fill: var(--accent-color);
+}
 }
 .response__area {
 	display: block;
@@ -66,11 +68,12 @@
 	border: 1px solid var(--input-border-color);
 	border-radius: 4px;
 	outline: none;
-}
-.response__area:hover,
-.response__area:focus {
+
+	&:hover,
+	&:focus {
 	border-color: var(--accent-color);
 	transition:	border-color 250ms var(--timing-function);
+}
 }
 .policy {
 	display: flex;
@@ -114,10 +117,12 @@
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	transition:	background-color 250ms var(--timing-function),
 	box-shadow 250ms var(--timing-function);
+
+	&:hover {
+		background: var(--active-btn-color);
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+		border-radius: 4px;
+	}
 }
 
-.response__btn:hover {
-	background: var(--active-btn-color);
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-	border-radius: 4px;
-}
+

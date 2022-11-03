@@ -64,9 +64,7 @@ img {
   color: inherit;
   transition: color 250ms var(--timing-function);
 }
-
-.link:hover,
-.link:focus {
+.link:hover, .link:focus {
   color: var(--accent-color);
 }
 
@@ -286,7 +284,6 @@ img {
   border-radius: 4px;
   transition: border-color 250ms var(--timing-function);
 }
-
 .mailing-form__input:focus {
   border-color: var(--primary-white-color);
 }
@@ -321,19 +318,15 @@ img {
   border-radius: 50%;
   transition: background-color 250ms var(--timing-function);
 }
+.social__link:hover, .social__link:focus {
+  background-color: var(--accent-color);
+}
 
 .social__icon {
   fill: var(--elements-grey-color);
   transition: fill 250ms var(--timing-function);
 }
-
-.social__link:hover,
-.social__link:focus {
-  background-color: var(--accent-color);
-}
-
-.social__link:hover .social__icon,
-.social__link:focus .social__icon {
+.social__link:hover .social__icon, .social__link:focus .social__icon {
   fill: var(--primary-white-color);
 }
 
@@ -394,15 +387,14 @@ img {
   transition: fill 250ms var(--timing-function);
 }
 
-.modal__btn:hover .modal__icon-close {
-  fill: var(--accent-color);
-}
-
 .modal__icon-close {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.modal__btn:hover .modal__icon-close {
+  fill: var(--accent-color);
 }
 
 .benefits {
@@ -460,19 +452,15 @@ img {
   border-radius: 4px;
   transition: border-color 250ms var(--timing-function);
 }
+.customers__link:hover, .customers__link:focus {
+  border-color: var(--accent-color);
+}
 
 .customers__icon {
   fill: var(--elements-grey-color);
   transition: fill 250ms var(--timing-function);
 }
-
-.customers__link:hover,
-.customers__link:focus {
-  border-color: var(--accent-color);
-}
-
-.customers__link:hover .customers__icon,
-.customers__link:focus .customers__icon {
+.customers__link:hover .customers__icon, .customers__link:focus .customers__icon {
   fill: var(--accent-color);
 }
 
@@ -517,9 +505,7 @@ img {
   cursor: pointer;
   outline: none;
 }
-
-.response__input:hover,
-.response__input:focus {
+.response__input:hover, .response__input:focus {
   border-color: var(--accent-color);
   transition: border-color 250ms var(--timing-function);
 }
@@ -533,9 +519,7 @@ img {
   pointer-events: none;
   transition: fill 250ms var(--timing-function);
 }
-
-.response__input:hover + .response__icon,
-.response__input:focus + .response__icon {
+.response__input:hover + .response__icon, .response__input:focus + .response__icon {
   fill: var(--accent-color);
 }
 
@@ -551,9 +535,7 @@ img {
   border-radius: 4px;
   outline: none;
 }
-
-.response__area:hover,
-.response__area:focus {
+.response__area:hover, .response__area:focus {
   border-color: var(--accent-color);
   transition: border-color 250ms var(--timing-function);
 }
@@ -606,7 +588,6 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   transition: background-color 250ms var(--timing-function), box-shadow 250ms var(--timing-function);
 }
-
 .response__btn:hover {
   background: var(--active-btn-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -648,9 +629,7 @@ img {
   border-radius: 4px;
   transition: background-color 250ms var(--timing-function), box-shadow 250ms var(--timing-function);
 }
-
-.hero__btn:hover,
-.hero__btn:focus {
+.hero__btn:hover, .hero__btn:focus {
   background-color: var(--active-btn-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
@@ -756,9 +735,7 @@ img {
   border-radius: 4px;
   transition: color 250ms var(--timing-function), box-shadow 250ms var(--timing-function), background-color 250ms var(--timing-function);
 }
-
-.filter__btn:hover,
-.filter__btn:focus {
+.filter__btn:hover, .filter__btn:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -795,7 +772,6 @@ img {
   color: inherit;
   transition: box-shadow 250ms var(--timing-function);
 }
-
 .projects__link:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -827,7 +803,6 @@ img {
   background-color: rgba(33, 150, 243, 0.9);
   transition: transform 250ms var(--timing-function);
 }
-
 .projects__link:hover .projects__description {
   transform: translateY(0);
 }

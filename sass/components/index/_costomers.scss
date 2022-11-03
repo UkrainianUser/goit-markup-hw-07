@@ -17,16 +17,19 @@
 	border: 1px solid var(--elements-grey-color);
 	border-radius: 4px;
 	transition: border-color 250ms var(--timing-function);
+
+	&:hover,
+	&:focus {
+	border-color: var(--accent-color);
+}
 }
 .customers__icon {
 	fill: var(--elements-grey-color);
 	transition: fill 250ms var(--timing-function);
-}
-.customers__link:hover,
-.customers__link:focus {
-	border-color: var(--accent-color);
-}
-.customers__link:hover .customers__icon,
-.customers__link:focus .customers__icon {
+
+	.customers__link:hover &,
+	.customers__link:focus & {
 	fill: var(--accent-color);
 }
+}
+

@@ -44,12 +44,14 @@
 	cursor: pointer;
 	transition:	fill 250ms var(--timing-function);
 }
-.modal__btn:hover .modal__icon-close{
-	fill: var(--accent-color);
-}
 .modal__icon-close {
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+
+	
+	.modal__btn:hover & {
+		fill: var(--accent-color);
+	}
 }
